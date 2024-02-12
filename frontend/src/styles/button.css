@@ -1,0 +1,20 @@
+/* .btn{
+    background-color: black;
+    border: none;
+    color: gray;
+} */
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #555; /* Darker grey button background */
+    color: #fff; /* White button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #777; /* Darker grey button background on hover */
+}

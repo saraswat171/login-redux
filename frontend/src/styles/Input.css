@@ -1,0 +1,35 @@
+/* .inputdiv{
+    
+    width: 100%;
+height: 40px;
+
+}
+
+.inputfield{
+    border: none;
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid grey;
+    background: transparent;
+    font-size: 20px;
+} */
+
+.inputdiv {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.inputfield {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #444; /* Dark grey input background */
+    color: #fff; /* White input text color */
+    border: 1px solid #222; /* Darker grey border */
+    border-radius: 5px;
+}
+
+.inputfield:focus {
+    outline: none;
+    border-color: #fff; /* White border on focus */
+}

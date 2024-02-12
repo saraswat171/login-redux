@@ -1,0 +1,65 @@
+/* .container{
+    background-color: #333;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formdiv{
+    background-color: rgb(21, 20, 20);
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    gap: 30px;
+    margin: 20px;
+    padding: 20px;
+}
+.heading{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.heading h1{
+    font-size: 50px;
+ font-weight: 900;
+ color: #555;
+}
+.heading p{
+    font-size: 30px;
+    font-weight: 100;
+    color: #555; 
+} */
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make container full-page height */
+}
+
+.formdiv {
+    background-color: #333; /* Light grey background */
+    padding: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 480px; /* Adjust width as needed */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+}
+
+
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.heading h1 {
+    color: #fff; /* Dark grey heading color */
+}
+
+.heading p {
+    color: #ccc; /* Medium grey text color */
+}
